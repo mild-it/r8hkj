@@ -1,0 +1,15 @@
+<style>
+  @font-face {
+     font-family: myFirstFont;
+     src: url(book_inner_test/font/THSarabun.ttf);
+  }
+
+  #font {
+     font-family: myFirstFont;
+  }
+
+  #field{
+    align:center;
+    border: 1px solid black;
+  }
+</style>

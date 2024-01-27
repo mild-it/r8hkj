@@ -1,0 +1,12 @@
+<div class="row_data_input_title">วันเดือนปี เกิด</div>
+				<div class="row_data_input_box">
+					<input type="text" class="small" name="birthday" id="birthday"  value="<?php echo $_POST['birthday']?>" />
+				</div>
+				<script type="text/javascript">
+						jQuery('#birthday').datetimepicker({
+							  yearOffset:543,	
+							  format:'d/m/Y',
+							  timepicker:false,
+							  lang:'th'
+							});
+				</script>
